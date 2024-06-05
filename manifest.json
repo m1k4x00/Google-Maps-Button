@@ -1,0 +1,16 @@
+{
+    "name": "Google Maps Button",
+    "description": "Adds a Maps button to Google searhces",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+          "js": ["script.js"],
+          "matches": [
+            "https://www.google.com/search*"
+            
+          ]
+        }
+      ],
+     "permissions": ["activeTab"]
+  }
